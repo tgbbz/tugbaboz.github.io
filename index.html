@@ -12,9 +12,10 @@
       padding: 0 20px;
       background-color: #f9f9f9;
       color: #333;
+      padding-right: 220px;
     }
     h1, h2, h3, h4 {
-      color: #005691;
+      color: #003366;
     }
     hr {
       border: none;
@@ -28,7 +29,7 @@
       padding-left: 20px;
     }
     a {
-      color: #005691;
+      color: #003366;
       text-decoration: none;
     }
     a:hover {
@@ -39,27 +40,39 @@
     }
     nav {
       background-color: #e0e0e0;
-      padding: 10px 0;
+      padding: 20px;
       margin-bottom: 30px;
       border-radius: 6px;
+      position: fixed;
+      right: 0;
+      top: 100px;
+      width: 200px;
     }
 
     #tabs {
-      display: flex;
-      justify-content: space-around;
+      display: block;
       list-style-type: none;
       padding-left: 0;
       margin: 0;
     }
 
+    #tabs li {
+      margin-bottom: 10px;
+    }
+
     #tabs li a {
-      text-decoration: none;
-      color: #005691;
+      display: block;
+      padding: 8px;
+      background-color: #f0f0f0;
+      border-radius: 4px;
+      color: #003366;
       font-weight: bold;
+      text-align: center;
     }
 
     #tabs li a:hover {
-      text-decoration: underline;
+      background-color: #d0d0d0;
+      text-decoration: none;
     }
   </style>
 </head>
@@ -68,7 +81,7 @@
   <p><strong>Assistant Professor, Instructional Design and Technology</strong><br>
   University of North Dakota<br>
   📧 tugba.boz@und.edu<br>
-  🌐 <a href="https://tugbaboz.github.io">tugbaboz.github.io</a></p>
+  </a></p>
 
   <nav>
     <ul id="tabs">
